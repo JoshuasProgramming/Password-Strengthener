@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password Strengther</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Password Strengther</h1>
+        
+        <div class="text-container">
+            <p class="upper-class" id="upperText">upper case</p>
+            <p class="lower-class" id="lowerText">lower case</p>
+            <p class="symbols-class" id="symbolsText">symbols</p>
+            <p class="numbers-class" id="numbersText">numbers</p>
+        </div>
+
+        <input class="input-area" id="input" placeholder="Password" type="password" autocomplete="off">
+        <div class="strength-box" id="strength">
+
+        </div>
+        <input class="checkbox-btn" id="checkbox" type="checkbox" onclick="showPassword()">
+        <label for="checkbox" class="show-password">Show Password</label>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
